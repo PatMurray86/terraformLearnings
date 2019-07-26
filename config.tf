@@ -1,7 +1,5 @@
-
-
 terraform {
-  required_version = "0.11.11"
+  required_version = ">= 0.12"
 }
 
 provider "aws" {
@@ -13,3 +11,4 @@ module "consul" {
   source      = "hashicorp/consul/aws"
   num_servers = "3"
 }
+
