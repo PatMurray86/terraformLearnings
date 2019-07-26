@@ -2,12 +2,21 @@
 
 provider "aws" {
     profile = "default"
-    region = "eu-west-2"
+    # region = var.region
 }
 
 resource "aws_instance" "example"{
-    ami = "ami-0cbe2951c7cd54704"
-    instance_type = "t2.micro"
+    ami = var.amis[var.region]
+    instance_type = var.instance_type
+}
+
+resource "aws_instance" "another_instance" {
+    ami = var.amis[var.region]
+    instance_type = var.instance_type
+}
+
+resource "aws_eip" "another_eip" {
+    instance = aws_instance.another_instance.id
 }
 
 resource "aws_eip" "ip" {
