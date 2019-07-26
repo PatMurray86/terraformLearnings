@@ -3,9 +3,9 @@ variable "region" {
     default = "eu-west-2"
 }
 
-# variable "ami"{
-#     default = "ami-0cbe2951c7cd54704"
-# }
+variable "ami"{
+    default = "ami-0cbe2951c7cd54704"
+}
 
 variable "instance_type" {
     default = "t2.micro"
