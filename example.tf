@@ -24,6 +24,7 @@ resource "aws_instance" "another_instance" {
 
 }
 
+## provisioner command is ran before eip is assigned to the instance
 resource "aws_eip" "ip" {
     instance = aws_instance.example.id
 }
