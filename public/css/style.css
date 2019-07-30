@@ -1,0 +1,64 @@
+html.index {
+  text-align: center;
+  background-image: url("/images/hell.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+html.death {
+  text-align: center;
+  background-image: url("/images/death.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+html.grim {
+  text-align: center;
+  background-image: url("/images/avengers.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+html.kay {
+  text-align: center;
+  background-image: url("/images/sansKay.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+html.kac {
+  text-align: center;
+  background-image: url("/images/kac.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+html.chole {
+  text-align: center;
+  background-image: url("/images/chole.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+html.sans {
+  text-align: center;
+  background-image: url("/images/sans.jpg");
+}
+
+h1.sans {
+  color: white;
+}
+
+div.game-type {
+  float: right;
+  padding-right: 3cm;
+}
+
+select.save-selector, select.level-selector{
+  font-size: 18px;
+}
+
+h1.index-heading {
+  color: white;
+}

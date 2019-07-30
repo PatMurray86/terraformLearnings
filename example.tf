@@ -9,6 +9,7 @@ terraform {
 }
 
 provider "aws" {
+  version = "~> 2.21"
   profile = "default"
   region  = "eu-west-2"
 }

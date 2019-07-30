@@ -1,0 +1,8 @@
+Dockerfile
+.DS_Store
+.gitignore
+README.md
+.git
+node_modules
+test-file.*
+setup-gitlab-instance.sh
